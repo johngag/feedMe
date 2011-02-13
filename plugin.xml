@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.cftips.feedMe" name="Feed Me" version="1.0" provider-name="cftips" class="feedMe.Handler">
+<description><![CDATA[ feedMe is a plugin that allows a user to add any feed they want to the sidebar ]]></description>
+<requiresVersion match="greaterOrEqual">1.2.2</requiresVersion>
+  <listens>
+	<event name="getPods" type="synch" priority="5" />
+	<event name="getPodsList" type="synch" priority="1" />
+	<event name="settingsNav" type="synch" priority="5" />
+  	<event name="showfeedMeSettings" type="synch" priority="5" />
+  </listens>
+</plugin>
